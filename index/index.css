@@ -1,0 +1,60 @@
+ #imgLogo{
+    
+    
+    width:300px;
+    
+    
+    
+    }
+    #navUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #258;
+}
+
+.navLI {
+  float: left;
+}
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  background-color: #258;
+   color: white;
+   text-align: center;
+font-family:'open sans';
+    padding:5px;
+    font-size:11px;
+
+}.error{
+			color: #c1000b;
+			background-color: #f6cfcf;
+			background-image:url('https://i.imgur.com/GnyDvKN.png');
+			border: 1px;
+			margin:0px;
+			padding: 15px 10px 15px 50px;
+			background-repeat: no-repeat;
+			background-position: 10px center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 15px;
+		}
+.navLI a {
+  display: block;
+  color: white;
+    font-family:'open sans';
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+.navLI a:hover {
+  background-color: #BDE;
+}
+    
+    #div1{
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(186,222,250,0.8577556022408963) 30%, rgba(187,221,238,1) 62%, rgba(204,230,242,1) 79%, rgba(255,255,255,1) 93%);  }
+    
+    
