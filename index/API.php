@@ -26,11 +26,18 @@ $DNS_arr = array($DNS_CNAME[0]['target'],$DNS_MX[0]['target'],$DNS_NS[0]['target
      $DNS_arr[$i]="?";
 }
   }
+  
+  
+   $domain = parse_url("$url")['host'];
+
+ 
+
+
 
 
 $outputjs="<script>bootbox.alert('".
 
-"<h2>Parsing & WHOIS Results:</h2><br>".
+"<h2><i style=\"color:blue\" aria-hidden=\"true\" class=\"fa fa-envelope-open-o\"></i> Parsing & WHOIS Results:</h2><br>".
 
 "<b>Scheme: </b> ".
 
@@ -118,6 +125,20 @@ $DNS_arr[9].
  "<br><b>DNS A6: </b>".
 
 $DNS_arr[10].
+
+
+
+ "<br><br><h3><i style=\"color:green\" aria-hidden=\"true\" class=\"fa  fa-globe\"></i> Discover This Site on: </h3><br>".
+ 
+"<b>Web Archive: </b><a target=\"_blank\" href=\"https://web.archive.org/web/$domain\">https://web.archive.org/web/$domain</a><br>".
+   
+"<b>Archive.is: </b><a target=\"_blank\" href=\"https://archive.is/$domain\">https://archive.is/$domain</a><br>".
+
+"<b>Whois.com: </b><a target=\"_blank\" href=\"https://www.whois.com/whois/$domain\">https://www.whois.com/whois/$domain</a><br>".
+
+ "<b>Who.is: </b><a target=\"_blank\" href=\"https://who.is/whois/$domain\">https://who.is/whois/$domain</a><br>".
+
+
 
 "');</script>";
 
